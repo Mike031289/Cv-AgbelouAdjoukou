@@ -1,0 +1,15 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.bloc-1,
+.bloc-2 {
+    border: 2px solid #000000;
+    background-color: #5f9ea0;
+    height: 100%;
+}
