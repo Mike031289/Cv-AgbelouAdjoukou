@@ -14,6 +14,8 @@
 }
 
 #img-block {
+    text-align: right;
+    padding-top: 450px;
     position: relative;
     background: url('https://i1.wp.com/www.alphr.com/wp-content/uploads/2020/05/Zoom-How-to-Set-Profile-Picture.jpg') no-repeat center center;
     width: 100%;
@@ -21,6 +23,7 @@
 }
 
 #text-block {
-    padding-top: 56px;
+    text-align: center;
+    padding-top: 200px;
     background-color: red;
 }
