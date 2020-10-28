@@ -2,6 +2,7 @@
     margin: 0rem;
     padding: 0rem;
     color: #ffffff;
+    /* height: 100%; */
 }
 
 .navbar-nav.navbar-center {
@@ -28,7 +29,7 @@
     padding-top: 470px;
     position: relative;
     background: url('https://i1.wp.com/www.alphr.com/wp-content/uploads/2020/05/Zoom-How-to-Set-Profile-Picture.jpg') no-repeat center center;
-    width: 100%;
+    /* width: 100%; */
     /* height: 100%; */
 }
 
