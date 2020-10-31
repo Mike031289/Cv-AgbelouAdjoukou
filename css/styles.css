@@ -6,6 +6,7 @@
 }
 
 .navbar-nav {
+    padding-top: 2rem;
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
@@ -19,29 +20,29 @@
     ;
 }
 
-#home-page {
+#home_page {
     height: 100vh;
 }
 
-#img-block {
+#img_block {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    padding-top: 470px;
+    padding-top: 35rem;
+    opacity: 0.9;
     position: relative;
     background: url('https://i1.wp.com/www.alphr.com/wp-content/uploads/2020/05/Zoom-How-to-Set-Profile-Picture.jpg') no-repeat center center;
     /* width: 100%; */
     /* height: 100%; */
 }
 
-#text-block {
+#text_block {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 15rem;
     background-color: red;
+    opacity: 0.9;
 }
 
-#footer_block {
-    width: 100%;
-    height: 100px;
-    padding-bottom: 0;
-    background-color: #000000;
+#text_block li {
+    padding: 1rem;
+    margin-top: 12rem;
 }
