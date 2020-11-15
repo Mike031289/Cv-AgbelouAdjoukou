@@ -1,9 +1,12 @@
 * {
     margin: 0rem;
     padding: 0rem;
-    color: #ffffff;
+    /* color: #ffffff; */
     height: auto;
 }
+
+
+/* Home page Elements */
 
 .navbar-nav {
     padding-top: 2rem;
@@ -48,4 +51,15 @@
 #text_block ul {
     margin-top: 11rem;
     display: inline-block;
+}
+
+
+/* Formation Elements */
+
+footer ul {
+    justify-content: center;
+}
+
+#midle_block {
+    padding: 5rem;
 }

@@ -13,29 +13,31 @@
 
 <body>
     <div id="home_page" class="container-fluid">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light" role="navigation">
-            <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+        <div>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light" role="navigation">
+                <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent ">
-                <ul class="navbar-nav navbar-center">
-                    <li class="nav-item active ">
-                        <a class="nav-link text-secondary font-weight-bolder p-5" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light p-5" href="formations.html">Formations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light p-5" href="#">Compétences</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light p-5" href="#">Réalisations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light p-5" href="#">Contactes</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                    <ul class="navbar-nav navbar-center">
+                        <li class="nav-item active ">
+                            <a class="nav-link text-secondary font-weight-bolder p-5" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light p-5" href="formations.html">Formations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light p-5" href="#">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light p-5" href="#">Réalisations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light p-5" href="#">Contactes</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
         </nav>
         <div id="img_block" class="col-lg-6">
             <div class="img_block-text">
@@ -47,6 +49,7 @@
         <div id="text_block" class="col-lg-6">
             <h1>DEVELOPPEUR WEB WEB MOBILE (Full-Stack)</h1>
             <p>Demande de stage de fin de formation</p>
+            <!-- A l'intérieur de ce block se trouve les élément (un petit formulaire) qui va permettre au visiteur d'envoyer directement un mail -->
             <div id="modal-block">
                 <button type="button" class="btn btn-light color-black font-weight-bolder" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Book Now</button>
                 <button type="button" class="btn border-white color-black font-weight-bolder" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">About Me</button>
@@ -79,24 +82,26 @@
                     </div>
                 </div>
             </div>
-            <ul class=" row col-xs-12 p-0 ml-0">
-                <!-- <a href="#"><i class='far fa-envelope-open' style='font-size:24px'></i>mike.agbelou@gmail.com</a> -->
-                <li class="list-inline-item">
-                    <a href="https://github.com/Mike031289">
-                        <i class='fab fa-github-square' style='font-size:28px'></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">
-                        <i class='fab fa-linkedin' style='font-size:28px'></i>
-                    </a>
-                </li>
-                <!-- <li class="list-inline-item">
+            <div>
+                <ul class=" row col-xs-12 p-0 ml-0">
+                    <!-- <a href="#"><i class='far fa-envelope-open' style='font-size:24px'></i>mike.agbelou@gmail.com</a> -->
+                    <li class="list-inline-item">
+                        <a href="https://github.com/Mike031289">
+                            <i class='fab fa-github-square' style='font-size:28px ; color:black'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class='fab fa-linkedin' style='font-size:28px'></i>
+                        </a>
+                    </li>
+                    <!-- <li class="list-inline-item">
                     <a href="#">
                         <i class='fas fa-info-circle' style='font-size:25px'></i>
                     </a>Mdph icone
                 </li> -->
-            </ul>
+                </ul>
+            </div>
         </div>
 
     </div>
