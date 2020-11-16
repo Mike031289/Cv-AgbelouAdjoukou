@@ -56,10 +56,20 @@
 
 /* Formation Elements */
 
+#formation_main-page {
+    padding: 0;
+}
+
 footer ul {
     justify-content: center;
 }
 
 #midle_block {
     padding: 5rem;
+}
+
+#formation_nav-block {
+    height: 5rem;
+    background-color: darkcyan;
+    margin: 0;
 }
