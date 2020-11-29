@@ -79,3 +79,8 @@ footer ul {
     margin: 0;
     opacity: 0.9;
 }
+
+#formation_main-page {
+    background: image("C:\wamp64\www\Cv-AgbelouAdjoukou\cv-img\Computer.jpeg");
+    background-position: center;
+}
