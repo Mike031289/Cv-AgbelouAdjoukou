@@ -67,6 +67,8 @@ footer ul {
 #footer_block {
     background-color: darkcyan;
     padding-top: 5rem;
+    position: relative;
+    justify-content: center;
 }
 
 #midle_block {
