@@ -80,7 +80,13 @@ footer ul {
     opacity: 0.9;
 }
 
-#formation_main-page {
-    background: image("C:\wamp64\www\Cv-AgbelouAdjoukou\cv-img\Computer.jpeg");
-    background-position: center;
+.formation_bg-img {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.formation_title {
+    border: 2px solid #ffffff;
 }
