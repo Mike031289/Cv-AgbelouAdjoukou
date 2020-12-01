@@ -92,3 +92,12 @@ footer ul {
 .formation_title {
     border: 2px solid #ffffff;
 }
+
+.card {
+    opacity: 0.9;
+}
+
+
+/* .card:hover {
+    transform: scale(1, 1.5);
+} */
