@@ -21,10 +21,10 @@
     font-family: monospace;
     /* text-transform: uppercase; */
 }
-.nav-link:hover{
+/* .nav-link:hover{
     transform: scale(1, 2);
     text-decoration: underline;
-}
+} */
 
 #home_page {
     display: flex;
