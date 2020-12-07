@@ -1,4 +1,4 @@
-* {
+body * {
     margin: 0rem;
     padding: 0rem;
     /* color: #ffffff; */
@@ -21,15 +21,16 @@
     font-family: monospace;
     /* text-transform: uppercase; */
 }
-/* .nav-link:hover{
+.nav-link:hover{
     transform: scale(1, 2);
     text-decoration: underline;
-} */
+}
 
 #home_page {
     display: flex;
     flex-wrap: wrap;
     padding: 0rem;
+   
 }
 
 #img_block {
