@@ -87,7 +87,7 @@ footer ul {
     opacity: 0.9;
 }
 
-.formation_bg-img {
+.bg_img{
     position: fixed;
     height: 100%;
     width: 100%;
@@ -108,7 +108,7 @@ footer ul {
     opacity: 0.7;
 }
 
-
-/* .card:hover {
-    transform: scale(1, 1.5);
-} */
+/* Expérience */
+.experienceBlock{
+    /* background-color: aquamarine; */
+}
