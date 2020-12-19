@@ -87,28 +87,26 @@ footer ul {
     opacity: 0.9;
 }
 
-.bg_img{
+.main-bg_img{
     position: fixed;
     height: 100%;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.2;
 }
 
 .formation_title {
-    border: 2px solid #ffffff;
-    margin: 3rem auto;
+    border-top: 2px solid #ffffff;
+    opacity: 0.8;
+    /* margin: 3rem auto; */
 }
 
 .card {
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 
 .gradeCap{
     height: 100px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 /* Expérience */
-.experienceCard{
-    background-color: hsl(187, 92%, 41%);
-}
