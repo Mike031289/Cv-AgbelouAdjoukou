@@ -78,6 +78,7 @@ footer ul {
 
 #midle_block {
     padding: 5rem;
+    background-color: ivory;
 }
 
 #formation_nav-block {
@@ -98,6 +99,11 @@ footer ul {
     border-top: 2px solid #ffffff;
     opacity: 0.8;
     /* margin: 3rem auto; */
+}
+
+.schoolName{
+    color: #eb5013;
+   float: right;
 }
 
 .card {
