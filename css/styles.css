@@ -45,14 +45,14 @@ body * {
     padding-top: 35rem;
     text-align: right;
 }
-
+/*block de texte*/
 #text_block {
     text-align: center;
     padding-top: 15rem;
     background-color: darkcyan;
     opacity: 0.8;
 }
-
+/*liste qui se trouvent dans le block de texte des cards*/
 #text_block ul {
     margin-top: 11rem;
     display: inline-block;
@@ -64,55 +64,61 @@ body * {
 #formation_main-page {
     padding: 0;
 }
-
+/*liste des elements du pied de page*/
 footer ul {
     justify-content: center;
 }
-
+/*block pied de page*/
 #footer_block {
     background-color: darkcyan;
     padding-top: 5rem;
     position: relative;
     justify-content: center;
 }
-
+/*la carde qui contient l'ensemble des autre cards*/
 #midle_block {
     padding: 5rem;
     background-color: ivory;
 }
-
+/*le block qui comporte le  block de navigation*/
 #formation_nav-block {
     height: 5rem;
     background-color: darkcyan;
     margin: 0;
     opacity: 0.9;
 }
-
+/*image de font de l'ensemble de la page(background du container)*/
 .main-bg_img{
     position: fixed;
     height: 100%;
     width: 100%;
     opacity: 0.2;
 }
-
+/*Grand titre (titre principal de la page)*/
 .formation_title {
     border-top: 2px solid #ffffff;
     opacity: 0.8;
     /* margin: 3rem auto; */
 }
-
+/*dernier sous titre(nom du centre de formation)*/
 .schoolName{
-    color: #eb5013;
+    color: #741818;;
    float: right;
+   font-weight: bold;
 }
-
-.card {
-    /* opacity: 0.9; */
+/* titre de la carde (premier titre de la carde) */
+.card-title{
+    
 }
-
-/* .gradeCap{
-    height: 100px;
-    opacity: 0.5;
-} */
+/* sous titre d'un block card (deuxieme titre de la carde) */
+.cardSecondTitle {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #741818;
+}
+.cardBoxShadow {
+    box-shadow: black -8px -2px 10px 2px;
+}
 
 /* Expérience */
