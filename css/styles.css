@@ -81,7 +81,7 @@ footer ul {
     background-color: ivory;
 }
 /*le block qui comporte le  block de navigation*/
-#formation_nav-block {
+#main_nav-block {
     height: 5rem;
     background-color: darkcyan;
     margin: 0;
@@ -95,7 +95,7 @@ footer ul {
     opacity: 0.2;
 }
 /*Grand titre (titre principal de la page)*/
-.formation_title {
+.main_title {
     border-top: 2px solid #ffffff;
     opacity: 0.8;
     /* margin: 3rem auto; */
