@@ -53,30 +53,37 @@
                     <form id="contactForm" method="POST" action="" role="form">
                         <div class="row mb-4">
                             <div class="col-md-6">
-                                <label for="Last name" class="form-label">Nom ou Raison Sociale<span class="labelStar">*</span></label>
+                                <label for="Last name" class="form-label">Nom ou Raison Sociale*</label>
                                 <input type="text" class="form-control" placeholder="Votre Nom" aria-label="last name">
+                                <span class="errorMessage">Veuillez saisire ces informations</span>
                             </div>
                             <div class="col-md-6">
                                 <label for="first name" class="form-label">Prénom</label>
                                 <input type="text" class="form-control" placeholder="Votre Prenom" aria-label="First name">
+                                <span class="errorMessage">Ce champ ne doit pas contenir des chiffres ni carractères spéciaux</span>
                             </div>
                         </div>
                         <div class="row mb-4">
                             <div class="col-md-6">
-                                <label for="Email" class="form-label">Email<span class="labelStar">*</span></label>
+                                <label for="Email" class="form-label">Email*</label>
                                 <input type="email" class="form-control" placeholder="Votre Email" aria-label="email">
+                                <span class="errorMessage">Veulliez saisir une adresse mail valide</span>
                             </div>
                             <div class="col-md-6">
                                 <label for="telephone" class="form-label">Téléphone</label>
                                 <input type="text" class="form-control" placeholder="Numero de Telephone" aria-label="telephone">
+                                <span class="errorMessage">Veulliez saisir un numero de téléphone valide</span>
                             </div>
                         </div>
                         <div class="mb-4">
-                            <label for="message" class="form-label">Message<span class="labelStar">*</span></label>
+                            <label for="message" class="form-label">Message*</label>
                             <textarea class="form-control" id="message" placeholder="Saisissez votre message ici" rows="5"></textarea>
+                            <span class="errorMessage">Vous deviez saisir au minimum 100 caractères</span>
                         </div>
+                        <div class="labelRequierNotification mb-4">* Ces informations sont requises Je m'engages à les concerver à titre personnel</div>
                         <div class="col">
                             <input type="submit" class="form-control butonSubmit" value="Envoyer">
+                            <input type="submit" class="form-control butonSubmit_disable" value="Envoyer">
                         </div>
                     </form>
                 </div>

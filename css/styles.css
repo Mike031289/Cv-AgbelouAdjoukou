@@ -124,14 +124,34 @@ footer ul {
     /* display: flex; */
     margin:auto;
 }
+/*couleur des labels du formulaire*/
+.form-label{
+    color: darkcyan;
+    font-weight: bolder;
+}
+/*information sur les champs obligatoirs*/
+.labelRequierNotification{
+    color: #741818;
+}
+/*Message d'erreur sur lorsqu'un champ n'est pas saisie ou lorque la saisie ne respecte pas le contrôle de sécurité*/
+.errorMessage{
+    color: #e40d0d;
+    display: none;
+}
 .butonSubmit{
     background-color: darkcyan;
     color: #fff;
 }
-.form-label{
-    color: darkcyan;
-    font-weight: bolder;
-
+/*comportement normal du bouton d'envoi du formulaire*/
+.butonSubmit{
+    background-color: darkcyan;
+    color: #fff;
+}
+/*le comportement du bouton d'envoi lorsque les champs ne sont pas remplie ou lorsque la saisie comporte des erreurs*/
+.butonSubmit_disable{
+    background-color: darkcyan;
+    opacity: 0.6;
+    display: none;
 }
 
 
