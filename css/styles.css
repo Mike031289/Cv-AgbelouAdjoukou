@@ -58,12 +58,6 @@ body * {
     display: inline-block;
 }
 
-
-/* Formation Elements */
-
-#formation_main-page {
-    padding: 0;
-}
 /*liste des elements du pied de page*/
 footer ul {
     justify-content: center;
@@ -100,9 +94,11 @@ footer ul {
     opacity: 0.8;
     /* margin: 3rem auto; */
 }
-/*dernier sous titre(nom du centre de formation)*/
+
+/* Fichiers Formation & Expérience */
+/*dernier sous-titre(nom du centre de formation)*/
 .schoolName{
-    color: #741818;;
+    color: #741818;
    float: right;
    font-weight: bold;
 }
@@ -117,8 +113,17 @@ footer ul {
     font-family: Arial, Helvetica, sans-serif;
     color: #741818;
 }
+/*ombrage des blocks (cardes)*/
 .cardBoxShadow {
     box-shadow: black -8px -2px 10px 2px;
 }
 
-/* Expérience */
+/*Formulaire de contact*/
+.formContact{
+    border-radius: 0.5rem;
+    /* display: flex; */
+    margin:auto;
+}
+
+
+
