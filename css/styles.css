@@ -119,11 +119,21 @@ footer ul {
 }
 
 /*Formulaire de contact*/
-.formContact{
+.form_contact{
     border-radius: 0.5rem;
     /* display: flex; */
     margin:auto;
 }
+.butonSubmit{
+    background-color: darkcyan;
+    color: #fff;
+}
+.form-label{
+    color: darkcyan;
+    font-weight: bolder;
+
+}
+
 
 
 
