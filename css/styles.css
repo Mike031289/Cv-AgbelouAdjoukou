@@ -39,6 +39,12 @@ body * {
     background: url('https://i1.wp.com/www.alphr.com/wp-content/uploads/2020/05/Zoom-How-to-Set-Profile-Picture.jpg')no-repeat;
     background-size: cover;
 }
+/* .homePage_bg-img{
+    position: absolute;
+    background-size: cover;
+    padding: 0rem;
+    margin: 0rem;
+} */
 
 .img_block-text {
     font-family: 'Courier New', Courier, monospace;
@@ -69,6 +75,12 @@ footer ul {
     position: relative;
     justify-content: center;
 }
+.copyrightText{
+    margin: 0rem 36rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
 /*la carde qui contient l'ensemble des autre cards*/
 #midle_block {
     padding: 5rem;
@@ -92,6 +104,9 @@ footer ul {
 .main_title {
     border-top: 2px solid #ffffff;
     opacity: 0.8;
+    font-family: 'Skranji', cursive;
+    font-weight: bolder;
+
     /* margin: 3rem auto; */
 }
 
@@ -104,7 +119,11 @@ footer ul {
 }
 /* titre de la carde (premier titre de la carde) */
 .card-title{
-    
+    font-family: eczar;
+    /* font-family: 'Skranji', cursive; */
+    font-weight: bold;
+    color: #5c3c18;
+   text-shadow: grey -8px -2px 10px 2px ;
 }
 /* sous titre d'un block card (deuxieme titre de la carde) */
 .cardSecondTitle {
@@ -169,7 +188,16 @@ footer ul {
      width: 30rem;
      display:none ;
  }
+.cardBodyBg {
+}
 
+/* bouton de retours en début de page */
+.gotTo_top-btn{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: ivory;
+    margin: 0rem 0rem 1rem  92rem;
+}
 
 
 
