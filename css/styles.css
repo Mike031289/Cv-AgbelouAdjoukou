@@ -133,6 +133,10 @@ footer ul {
 .labelRequierNotification{
     color: #741818;
 }
+.labelRequierStar{
+    color: #741818;
+
+}
 /*Message d'erreur sur lorsqu'un champ n'est pas saisie ou lorque la saisie ne respecte pas le contrôle de sécurité*/
 .errorMessage{
     color: #e40d0d;
@@ -153,6 +157,19 @@ footer ul {
     opacity: 0.6;
     display: none;
 }
+ /*message de retours sur l'écran après envoie de formulaire*/
+ .sentMessageFeedback{
+     padding: 1.5rem;
+     margin: 2rem auto;
+     color: #027733;
+     background-color: rgba(166, 241, 216, 0.589);
+     opacity: 0.8;
+     border: 1px solid  #027733;
+     text-align: center;
+     width: 30rem;
+     display:none ;
+ }
+
 
 
 
