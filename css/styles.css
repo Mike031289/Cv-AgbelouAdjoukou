@@ -76,8 +76,8 @@ footer ul {
     justify-content: center;
 }
 .copyrightText{
-    margin: 0rem 36rem;
-    padding: 1rem;
+    /* margin: 0rem 36rem;
+    padding: 1rem; */
     font-weight: bold;
 }
 
@@ -191,12 +191,13 @@ footer ul {
 .cardBodyBg {
 }
 
-/* bouton de retours en début de page */
-.gotTo_top-btn{
+/* icone de retours en début de page */
+.gotTo_top-icone{
     font-size: xx-large;
     font-weight: bolder;
     color: ivory;
-    margin: 0rem 0rem 1rem  92rem;
+    /* margin: 0rem 0rem 1rem  92rem; */
+    float: right;
 }
 
 
