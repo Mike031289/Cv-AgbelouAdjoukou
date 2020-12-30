@@ -177,15 +177,10 @@ footer ul {
     display: none;
 }
  /*message de retours sur l'écran après envoie de formulaire*/
- .sentMessageFeedback{
-     padding: 1.5rem;
-     margin: 2rem auto;
-     color: #027733;
-     background-color: rgba(166, 241, 216, 0.589);
-     opacity: 0.8;
-     border: 1px solid  #027733;
+ .alert-success{
+     padding: 1rem;
+     margin: 2rem;
      text-align: center;
-     width: 30rem;
      display:none ;
  }
 .cardBodyBg {
@@ -205,9 +200,4 @@ footer ul {
     padding: 0rem;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
-
-.adressCard{
-}
-
-
 
