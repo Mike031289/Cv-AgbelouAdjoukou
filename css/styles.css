@@ -201,5 +201,18 @@ footer ul {
     border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
 /*Tableau du fichier Réaslisations*/
-
-
+.table{
+    border-radius:0.5rem;
+}
+/*lien de Télécharchement du CV verssion PDF*/
+.dowloadLink{
+    color: #8b1d2c;
+}
+/*Lien vers le formulaire de contacte*/
+.contactLink:hover{
+  text-decoration: none;
+  color: #168d73;
+}
+.contactLink{
+    color: #000;
+}
