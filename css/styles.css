@@ -183,6 +183,12 @@ footer ul {
      text-align: center;
      display:none ;
  }
+ .alert-danger{
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    display:none ;
+ }
 .cardBodyBg {
 }
 
