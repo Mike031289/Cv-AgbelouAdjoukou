@@ -103,12 +103,11 @@
                                 <script>
                                     //Fonction pour tester les valeurs des champs de saisie
                                     function verifyInput(variable){
-                                            $("#"+variable+"+span").addClass("errorMessage");
+                                            $("#"+variable+"span").addClass("errorMessage");
                                             $("#"+variable).css("border", "1px solid black");
                                             //On teste voir si le champ est vide
                                         if ($("#"+variable).val()==""){
-                                            $("#"+variable+"+span").css("color", "red").removeClass("errorMessage"+variable);
-                                            $("#"+variable+"+span").removeClass("errorMessage");
+                                            $("#"+variable+"+span").css("color", "red").removeClass("errorMessage");
                                             $("#"+variable).css("border", "1px solid red");
                                         }else{
                                             //On va tester la validité de l'email
