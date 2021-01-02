@@ -51,11 +51,14 @@ body * {
     padding-top: 35rem;
     text-align: right;
 }
-/*block de texte*/
+/*block de texte du fichier index et formation*/
 #text_block {
     text-align: center;
     padding-top: 15rem;
     background-color: darkcyan;
+    /* background-color: #2babe2; */
+    /* background-color: #0A66C2; */
+    /* background-color: #0084bf; */
     opacity: 0.8;
 }
 /*liste qui se trouvent dans le block de texte des cards*/
@@ -71,6 +74,7 @@ footer ul {
 /*block pied de page*/
 #footer_block {
     background-color: darkcyan;
+    /* background-color:#2babe2; */
     padding-top: 5rem;
     position: relative;
     justify-content: center;

@@ -59,13 +59,13 @@
                             <div class="col-md-6">
                                 <label for="Last name" class="form-label">Nom ou Raison Sociale <span class="labelRequierStar">*</span></label>
                                 <input type="text" id="nom" name="name" class="form-control" placeholder="Votre Nom" aria-label="last name" onblur='verifyInput("nom")'>
-                                <span class="error errorMessage">Veuillez saisire ces informations</span>
+                                <span class="error errorMessage">Veuillez compléter ce champs</span>
                                 <!-- <span class="error hide"></span>  -->
                             </div>
                             <div class="col-md-6">
                                 <label for="first name" class="form-label">Prénom</label>
-                                <input type="text" id="prenom" name="firstName" class="form-control" placeholder="Votre Prenom" aria-label="First name" onblur='verifyInput("prenom")'>
-                                <span class="errorMessage">Ce champ ne doit pas contenir des chiffres ni carractères spéciaux</span>
+                                <input type="text" id="prenom" name="firstName" class="form-control" placeholder="Votre Prenom" aria-label="First name" onblur='verifyInput("")'>
+                                <!-- <span class="errorMessage">Veuillez compléter ce champs</span> -->
                                 <!-- <span class="error hide"></span>  -->
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                                 <!-- <span class="error hide"></span>  -->
                             </div>
                             <div class="col-md-6">
-                                <label for="telephone" class="form-label">Téléphone</label>
+                                <label for="telephone" class="form-label">Téléphone<span class="labelRequierStar">*</span></label>
                                 <input type="tel" id="telephone" name="telphone" class="form-control" placeholder="Numero de Telephone" aria-label="telephone" onblur='verifyInput("telephone")'>
                                 <span class="errorMessage">Veulliez saisir un numero de téléphone valide</span>
                                 <!-- <span class="error hide"></span>  -->
@@ -180,7 +180,7 @@
                     <div class="row col-lg">
                         <p class="col-lg text-center p-3 copyrightText">Copyright 2021 dmd All Rights Reserved</p>
                         <div class="col-lg  position-absolute">
-                        <a class="gotTo_top-icone" href="contactes.html"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+                        <a class="gotTo_top-icone" href="contactes.php"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
